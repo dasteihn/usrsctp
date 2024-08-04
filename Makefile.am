@@ -36,3 +36,5 @@ SUBDIRS = usrsctplib $(MAYBEPROGRAMS)
 EXTRA_DIST = bootstrap Makefile.nmake
 ACLOCAL_AMFLAGS = -I m4
 # pkgconfig_DATA = usrsctp.pc
+
+pkgconfigdir = $(libdir)/pkconfig
